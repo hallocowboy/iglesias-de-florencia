@@ -8,6 +8,8 @@ h1 {
 	font-family: sans-serif;
 	color: rgb(22, 22, 105);
 	letter-spacing: 48px;
+	text-align: right;
+	
 }
 
 h2 {
@@ -22,13 +24,26 @@ p {
 
 .bold-text {
 	font-weight: bold;
+	font-style: italic;
 }
 
-.clean-section {
+.clear-section {
 	clear: both;
 	color: transparent;
 }
 
 .left {
 	float: left;
+	margin-right: 10px;
+	
+}
+
+.center {
+	margin: auto;
+	display: block;
+}
+
+.right {
+	float: right;
+	margin-left: auto;
 }
